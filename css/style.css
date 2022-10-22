@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url();
+}
+body{
+    font-family: 'Poppins' sans-serif;
+    margin: 0 auto;
+}
+/* .layout */
+section{
+    padding: 6rem;
+}
+a{
+    color: #5b5b5b ;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.col-2{
+    width: calc(100%/2 - 40px);
+}
+.col-3{
+    width: calc(100%/3 - 40px);
+}
+.lightblue{
+    background-color: #dceaf5;
+}
+.align-self{
+    align-items: center;
+}
+/* .nav */
+.nav-fins{
+    display: flex;
+
+}
+.nav-article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 5px;
+    color: black;
+}
+.cta{
+    background-color: #ffe6c8;
+    color: orange;
+    border-radius: 5px;
+    padding: 3px;
+}
+/* hero */
+.section .hero{
+    padding: 0;
+}
+.hero-img{
+    vertical-align: bottom;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+
+}
+/* .solution */
+.solution-card{
+    background-color: white;
+    border-radius: 5px;
+    padding: 40px;
+}
+/* .blog */
+.blog-img{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+.blog-text{
+    padding: 40px;
+}
+.blog-img img{
+    width: 100%;
+}
+/* .experience */
+.exp-img{
+    background-image: url(/experience-image.png);
+}
+.exp-img img{
+    border-radius: 20px;
+}
+.exp-number{
+    color: #f58a07;
+}
+.clr-exp{
+    background-color: orange;
+}
+/* .footer */
+.darkblue{
+    color: white;
+    background-color: #063255;
+}
+/* .call */
+.see{
+    border-radius: 5px;
+    background-color: #f58a07 ;
+    color: white;
+}
+.all{
+    color: #1d3444;
+}
+/* .ceo */
+.ceo-maze{
+    color: orange;
+}
+.ceo-img img{
+    border-radius: 50px;
+}
+.energy-call{
+    background-color: rgb(255, 255, 255);
+    color: orange;
+    padding: 5px;
+    border-radius: 6px;
+}.more{
+    color: orange;
+}
+.more::after{
+    content: '\2192'
+}
+/* ENERGY */
+.energy{
+    padding: 0;
+}
+.energy .row{
+    gap: 0;
+}
+.energy-img{
+    background-image: url(/images/experience-image.png);
+    height: 40vh;
+    background-size: cover;
+}
+.energy-text{
+    background-color: orange;
+    color: white;
+    padding: 20px 20px;
+    height: 35vh;
+}
+.energy-a{
+    background-color: rgb(255, 228, 177);
+    color: orange;
+    border-radius: 10px;
+    padding: 3px;
+    margin: 10px;
+}
+/* .strategy */
+.stra-text{
+    padding: 15px;
+}
+.stra-menu{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.stra{
+    background-color: #ffe6c8;
+    color: orange;
+    border-radius: 5px;
+}
+.stra-li {
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.email{
+    background-color: white;
+    
+}
