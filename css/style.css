@@ -10,8 +10,22 @@ body{
 section{
     padding: 6rem;
 }
+h1{
+    font-size: 4rem;
+    color: #063255 ;
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 1.5rem ;
+}
+p{
+    font-size: 1.25rem;
+    color: #5b5b5b;
+}
 a{
-    color: #5b5b5b ;
+    color: #063255;
     text-decoration: none;
 }
 li{
@@ -41,15 +55,21 @@ li{
 /* .nav */
 .nav-fins{
     display: flex;
+    color: #063255;
 
 }
 .nav-article{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    gap: 5px;
+    gap: 30px;
+    font-size: 1.05rem;
+}
+.nav-items{
+    margin: 20px;
     padding: 5px;
-    color: black;
+}
+.nav-article a{
+    color: #063255;
 }
 .cta{
     background-color: #ffe6c8;
@@ -66,27 +86,39 @@ li{
 }
 .logo{
     display: flex;
-    flex-direction: row;
-
+    gap: 20px;
+    padding: 10px;
+}
+.our{
+    padding: 10px;
+}
+/* service */
+.service h2{
+    color: #063255;
+}
+.service-img img{
+    border-radius: 20px;
 }
 /* .solution */
 .solution-card{
     background-color: white;
-    border-radius: 5px;
-    padding: 40px;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 20px;
 }
 /* .blog */
 .blog-img{
     background-color: white;
-    padding: 10px;
     border-radius: 10px;
-    width: 100%;
+
 }
 .blog-text{
     padding: 40px;
 }
 .blog-img img{
     width: 100%;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
 }
 /* .experience */
 .exp-img{
@@ -129,14 +161,13 @@ li{
     border-radius: 6px;
 }.more{
     color: orange;
+    font-size: 1rem;
 }
 .more::after{
     content: '\2192'
 }
 /* ENERGY */
-.energy{
-    padding: 0;
-}
+
 .energy .row{
     gap: 0;
 }
@@ -145,14 +176,14 @@ li{
     height: 40vh;
     background-size: cover;
 }
+.energy-color{
+    background-color: #f58a07;
+}
 .energy-text{
-    background-color: orange;
     color: white;
-    padding: 20px 20px;
-    height: 35vh;
 }
 .energy-a{
-    background-color: rgb(255, 228, 177);
+    background-color: rgb(255, 255, 255);
     color: orange;
     border-radius: 10px;
     padding: 3px;
@@ -178,5 +209,7 @@ li{
 }
 .email{
     background-color: white;
-    
+}
+.fa-brands{
+    padding: 15px;
 }
