@@ -1,35 +1,31 @@
 @font-face {
-    font-family: 'Poppins';
+    font-family: 'poppins';
     src: url();
 }
-body{
-    font-family: 'Poppins' sans-serif;
-    margin: 0 auto;
-}
-/* .layout */
-section{
-    padding: 6rem;
-}
-h1{
-    font-size: 4rem;
-    color: #063255 ;
-}
-h2{
-    font-size: 3rem;
-}
-h3{
-    font-size: 1.5rem ;
-}
-p{
-    font-size: 1.25rem;
-    color: #5b5b5b;
-}
+
 a{
-    color: #063255;
     text-decoration: none;
+    color: #5b5b5b ;
 }
 li{
     list-style: none;
+    padding: 10px;
+}
+h1{
+    font-size: 4rem;
+    color: #063255;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1.1rem;
+}
+section{
+    padding: 6rem;
 }
 .container{
     max-width: 1280px;
@@ -49,167 +45,230 @@ li{
 .lightblue{
     background-color: #dceaf5;
 }
+.darkblue{
+    background-color: #063255;
+}
 .align-self{
     align-items: center;
 }
-/* .nav */
-.nav-fins{
-    display: flex;
-    color: #063255;
-
-}
-.nav-article{
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-    font-size: 1.05rem;
-}
-.nav-items{
-    margin: 20px;
-    padding: 5px;
-}
-.nav-article a{
-    color: #063255;
-}
 .cta{
-    background-color: #ffe6c8;
-    color: orange;
-    border-radius: 5px;
-    padding: 3px;
-}
-/* hero */
-.section .hero{
-    padding: 0;
-}
-.hero-img{
-    vertical-align: bottom;
-}
-.logo{
-    display: flex;
-    gap: 20px;
-    padding: 10px;
-}
-.our{
-    padding: 10px;
-}
-/* service */
-.service h2{
-    color: #063255;
-}
-.service-img img{
+    background-color: #ffeeda;
+    color: #F58A07;
     border-radius: 20px;
-}
-/* .solution */
-.solution-card{
-    background-color: white;
-    border-radius: 20px;
-    padding: 30px;
-    margin: 20px;
-}
-/* .blog */
-.blog-img{
-    background-color: white;
-    border-radius: 10px;
-
-}
-.blog-text{
-    padding: 40px;
-}
-.blog-img img{
-    width: 100%;
-   border-top-left-radius: 10px;
-   border-top-right-radius: 10px;
-}
-/* .experience */
-.exp-img{
-    background-image: url(/experience-image.png);
-}
-.exp-img img{
-    border-radius: 20px;
-}
-.exp-number{
-    color: #f58a07;
-}
-.clr-exp{
-    background-color: orange;
-}
-/* .footer */
-.darkblue{
-    color: white;
-    background-color: #063255;
-}
-/* .call */
-.see{
-    border-radius: 5px;
-    background-color: #f58a07 ;
-    color: white;
-}
-.all{
-    color: #1d3444;
-}
-/* .ceo */
-.ceo-maze{
-    color: orange;
-}
-.ceo-img img{
-    border-radius: 50px;
-}
-.energy-call{
-    background-color: rgb(255, 255, 255);
-    color: orange;
-    padding: 5px;
-    border-radius: 6px;
-}.more{
-    color: orange;
-    font-size: 1rem;
-}
-.more::after{
-    content: '\2192'
-}
-/* ENERGY */
-
-.energy .row{
-    gap: 0;
-}
-.energy-img{
-    background-image: url(/images/experience-image.png);
-    height: 40vh;
-    background-size: cover;
-}
-.energy-color{
-    background-color: #f58a07;
-}
-.energy-text{
-    color: white;
-}
-.energy-a{
-    background-color: rgb(255, 255, 255);
-    color: orange;
-    border-radius: 10px;
-    padding: 3px;
-    margin: 10px;
-}
-/* .strategy */
-.stra-text{
     padding: 15px;
 }
-.stra-menu{
+
+/* .header */
+.header-li{
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
     gap: 10px;
 }
-.stra{
-    background-color: #ffe6c8;
-    color: orange;
-    border-radius: 5px;
+.fins{
+    display: flex;
 }
-.stra-li {
-    border-radius: 5px;
-    border: 1px solid black;
+.fins-title h3{
+    color: #063255;
+}
+/* hero */
+.hero{
+    padding: 0;
+}
+.See-servi{
+    background-color: #F58A07;
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+.hero-img img{
+    vertical-align: bottom;
+}
+/* service */
+.servi-title h2{
+    color: #063255;
+}
+.servi-img img{
+    border-radius: 15px;
+    width: 100%;
+}
+.more{
+    color: #F58A07;
+}
+.more::after{
+    content: '\2192';
+}
+.servi-li{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+}
+/* solution */
+.sol-card{
+    background-color: white;
+    border-radius: 20px;
+}
+/* strategy */
+.stra-li{
+    display: flex;
+    flex-direction: row;
+}
+.stra{
+    border-radius: 20px;
+}
+/* .experience */
+.exp-number{
+    color:#F58A07 ;
+}
+.exp-img img{
+    border-radius: 20px;
+    width: 100%;
+}
+/* energy */
+.energy{
+    padding: 0rem;
+}
+.energy-img{
+    background-image: url(/assigment/images/experience-image.png);
+    height: 60vh;
+    background-size: cover;
+    width: 100%;
+}
+.energy-textcrl{
+    background-color: #F58A07;
+    color: white;
+}
+.See-job{
+    background-color: white;
+    color: #F58A07;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/* finsweet */
+.fins-img img{
+    width: 100%;
+}
+.ceo img{
+    border-radius: 50px;
+}
+/* blog */
+.blog-article{
+    background-color: white;
+    border-radius: 20px;
+    align-items: center;
+}
+.blog-article img{
+    width: 100%;
+}
+.blog-text{
+    padding: 5px;
+}
+/* .footer */
+.footer{
+    color: white;
 }
 .email{
     background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+.subs{
+    background-color: #F58A07;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
 }
 .fa-brands{
-    padding: 15px;
+    padding: 20px;
+}
+
+
+
+
+
+/* .HOME */
+/* serve */
+.serve-img img{
+    border-radius: 20px;
+}
+/* .business */
+.bsns-img img{
+    border-radius: 20px;
+}
+.bsns-li{
+    list-style:;
+}
+/* Blog */
+.blog-art{
+    background-color: #dceaf5;
+    border-radius: 20px;
+    
+}
+.blog-art img{
+    border-radius: 20px;
+    width: 100%;
+}
+/* .Post */
+.posts{
+    padding: 2rem;
+}
+/* .Contact Us */
+.cont-us img{
+    border-radius: 20px;
+   width: 100%;
+}
+.figma-text{
+    text-align: center;
+}
+.figma-li{
+    display: flex;
+    flex-direction: row;
+}
+.figma-article{
+    text-align: center;
+    justify-content: flex-end;
+    padding: 20px;
+}
+/* Call to Action */
+table, th, td{
+    border: 1px 
+}
+.table{
+    border-radius: 20px;
+    padding: 25px;
+}
+.table-art{
+    margin:20px ;
+    padding: 10px;
+}
+.table-text{
+    color: #5b5b5b;
+}
+/* .Tesing */
+.Apply-now .apply-now{
+    justify-content: flex-start;
+}
+.apply-now{
+    background-color:#f2f2f2 ;
+    border-radius: 20px;
+    padding: 10px;
+}
+.apply-now-art{
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 85px;
+    justify-content: flex-start;
+}
+.subs-art{
+    background-color: #F58A07;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+/* .finsweet */
+.fins-photo img{
+    width: 100%;
+    border-radius: 20px;
 }
