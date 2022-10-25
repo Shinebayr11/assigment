@@ -1,8 +1,10 @@
 @font-face {
-    font-family: 'poppins';
-    src: url();
+    font-family: 'poppins' sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Poppins');
 }
-
+body{
+    margin: 0;
+}
 a{
     text-decoration: none;
     color: #5b5b5b ;
@@ -81,8 +83,18 @@ section{
     padding: 15px;
     border-radius: 20px;
 }
+.See-All{
+    color: #063255;
+}
 .hero-img img{
     vertical-align: bottom;
+}
+.hero-logo{
+    padding: 10px;
+}
+.hero-logoo{
+    padding: 10px;
+    margin: 0px;
 }
 /* service */
 .servi-title h2{
@@ -109,6 +121,9 @@ section{
     background-color: white;
     border-radius: 20px;
 }
+.sol{
+    padding: 20px;
+}
 /* strategy */
 .stra-li{
     display: flex;
@@ -116,6 +131,14 @@ section{
 }
 .stra{
     border-radius: 20px;
+}
+.stra-text{
+    padding: 30px;
+    margin: 20px;
+}
+.stra-img img{
+    float: right;
+    gap: 0px;
 }
 /* .experience */
 .exp-number{
@@ -130,7 +153,7 @@ section{
     padding: 0rem;
 }
 .energy-img{
-    background-image: url(/assigment/images/experience-image.png);
+    background-image: url(/images/experience-image.png);
     height: 60vh;
     background-size: cover;
     width: 100%;
@@ -161,9 +184,14 @@ section{
 }
 .blog-article img{
     width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .blog-text{
     padding: 5px;
+}
+.blog-aa{
+    padding: 20px;
 }
 /* .footer */
 .footer{
@@ -172,7 +200,8 @@ section{
 .email{
     background-color: white;
     border-radius: 20px;
-    padding: 5px;
+    padding: 10px;
+
 }
 .subs{
     background-color: #F58A07;
@@ -181,11 +210,8 @@ section{
     border-radius: 20px;
 }
 .fa-brands{
-    padding: 20px;
+    padding: 10px;
 }
-
-
-
 
 
 /* .HOME */
@@ -197,16 +223,30 @@ section{
 .bsns-img img{
     border-radius: 20px;
 }
-.bsns-li{
-    list-style:;
-}
 /* Blog */
 .blog-art{
     background-color: #dceaf5;
     border-radius: 20px;
-    
 }
 .blog-art img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.blog-six{
+    padding: 20px;
+}
+.allposts{
+    padding:1rem 0rem;
+}
+.andrew{
+    display: flex;
+    flex-direction: row;
+}
+.andrew img{
+    border-radius: 50px;
+}
+.blog-our img{
     border-radius: 20px;
     width: 100%;
 }
@@ -271,4 +311,31 @@ table, th, td{
 .fins-photo img{
     width: 100%;
     border-radius: 20px;
+}
+/* .careers */
+.open-see{
+    padding: 20px;
+    margin: 10px;
+}
+.apply{
+    color: #F58A07;
+}
+.pos-art{
+    padding: 15px;
+}
+.pos-artile{
+    background-color: #F58A07;
+    color: white;
+    padding: 13px;
+    border-radius: 20px;
+}
+.ab-img img{
+    border-radius: 20px;
+}
+.ab-pos h2{
+    font-size: 3rem;
+    color: #063255;
+}
+.ab-art{
+    color: #063255;
 }
