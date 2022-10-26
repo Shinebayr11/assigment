@@ -1,0 +1,508 @@
+
+body{
+    margin: 0px;
+}
+body{
+    font-family: 'poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #5b5b5b ;
+}
+li{
+    list-style: none;
+    padding: 5px;
+}
+h1{
+    font-size: 4rem;
+    color: #063255;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1.1rem;
+}
+section{
+    padding: 6rem;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.col-2{
+    width: calc(100%/2 - 40px);
+}
+.col-3{
+    width: calc(100%/3 - 40px);
+}
+.lightblue{
+    background-color: #dceaf5;
+}
+.darkblue{
+    background-color: #063255;
+}
+.align-self{
+    align-items: center;
+}
+.cta{
+    background-color: #ffeeda;
+    color: #F58A07;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+/* .header */
+.header-li{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 10px;
+}
+.fins{
+    display: flex;
+}
+.fins-title h3{
+    color: #063255;
+}
+/* hero */
+.hero{
+    padding: 0;
+}
+.See-servi{
+    background-color: #F58A07;
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+.See-All{
+    color: #063255;
+    padding: 15px;
+}
+.hero-img img{
+    vertical-align: bottom;
+}
+/* service */
+.servi-title h2{
+    color: #063255;
+}
+.servi-img img{
+    border-radius: 15px;
+    width: 100%;
+}
+.more{
+    color: #F58A07;
+}
+.more::after{
+    content: '\2192';
+}
+.servi-li{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+}
+/* solution */
+.sol-card{
+    background-color: white;
+    border-radius: 20px;
+}
+.sol{
+    padding: 20px;
+    margin: 20px;
+}
+/* strategy */
+
+.stra-li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.stra-menu{
+    border: 1px;
+    background-color: #fefaf6;
+    color: #F58A07;
+    border-radius: 20px;
+    padding: 5px;
+}
+.stra-bord{
+    border: 1px solid #063255;
+    border-radius: 20px;
+    padding: 5px;
+    color: #063255;
+}
+.stra{
+    border-radius: 20px;
+}
+.stra-img{
+    display: flex;
+    float: right;
+}
+.team-img {
+    position: relative;
+}
+.team-img::before{
+    position: absolute;
+    content: '';
+    background-color: #d97e0f;
+    mix-blend-mode: multiply;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    inset: 0 0 1% 0 ;
+    width: 16vh;
+}
+.stra-text{
+    margin: 20px;
+}
+/* .experience */
+.exp-number{
+    color:#F58A07 ;
+}
+.exp-img img{
+    border-radius: 20px;
+    width: 100%;
+}
+.exp-img{
+    position: relative;
+}
+.exp-img::before{
+    position: absolute;
+    content: '';
+    background-color: #d97e0f;
+    mix-blend-mode: multiply;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    inset: 0 0 0.6% 0;
+    width: 16vh;
+
+}
+/* energy */
+.energy{
+    padding: 0rem;
+}
+.energy-img{
+    background-image: url(/assigment/images/experience-image.png);
+    height: 60vh;
+    background-size: cover;
+    width: 100%;
+}
+.energy-textcrl{
+    background-color: #F58A07;
+    color: white;
+}
+.See-job{
+    background-color: white;
+    color: #F58A07;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/* finsweet */
+.fins-img img{
+    width: 100%;
+}
+.ceo img{
+    border-radius: 50px;
+}
+/* blog */
+.blog-article{
+    background-color: white;
+    border-radius : 20px;
+}
+.blog-article img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.blog-text{
+    padding: 20px;
+}
+.jonson-li img{
+    border-radius: 50px;
+}
+.jonson-li{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    gap: 20px;
+}
+
+/* .footer */
+.footer{
+    position: relative;
+}
+.footer::after{
+    position: absolute;
+    content: '';
+    background-color: #F58A07;
+    width: 6vh;
+    inset: 80% 1% 0 0;
+    border-top-right-radius: 20px;
+    height: 14vh;
+}
+.footer::before{
+    position: absolute;
+    content: '';
+    background-color: #F58A07;
+    width: 6vh;
+    inset: 20% 0 1% 97%;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 40vh;
+
+}
+.footer{
+    color: white;
+}
+#id-email{
+    border-radius: 20px;
+    align-self: center;
+}
+.subs{
+    background-color: #F58A07;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+}
+.fa-brands{
+    padding: 20px;
+}
+
+
+
+
+
+/* .HOME */
+/* serve */
+.serveimg img{
+    border-radius: 20px;
+}
+.serveimg{
+    position: relative;
+}
+.serveimg::after{
+    position: absolute;
+    content: '';
+    background-color: #d97e0f;
+    mix-blend-mode: multiply;
+    width: 16vh;
+    inset: 0% 0 0.7% 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height:  63.7vh;
+}
+.serve-img img{
+    border-radius: 20px;
+}
+/* .business */
+.bsns-img img{
+    border-radius: 20px;
+}
+.bsns-img{
+    position: relative;
+}
+.bsns-img::after{
+    position: absolute;
+    content: '';
+    background-color: #d97e0f;
+    mix-blend-mode: multiply;
+    width: 15vh;
+    inset: 17% 5% 0.7% -10%;
+    border-radius: 20px;
+    height:  15vh;
+}
+.digital-img{
+    position: relative;
+}
+.digital-img img{
+    border-radius: 20px;
+}
+.digital-img::before{
+    position: absolute;
+    content: '';
+    background-color: #d97e0f;
+    mix-blend-mode: multiply;
+    width: 15vh;
+    inset: 17% 10% 20% 71%;
+    border-radius: 20px;
+    height:  15vh;
+}
+.risk-img img{
+    border-radius: 20px;
+}
+.risk-img{
+    position: relative;
+}
+.risk-img::after{
+    position: absolute;
+    content: '';
+    background-color: #d97e0f;
+    mix-blend-mode: multiply;
+    width: 15vh;
+    inset: 60% 5% 0.7% -10%;
+    border-radius: 20px;
+    height:  15vh;
+}
+.artif-img img{
+    border-radius: 20px;
+}
+.artif-img{
+    position: relative;
+}
+.artif-img::after{
+    position: absolute;
+    content: '';
+    background-color: #d97e0f;
+    mix-blend-mode: multiply;
+    width: 15vh;
+    inset: 45% 5% 0.7% 71%;
+    border-radius: 20px;
+    height:  15vh;
+}
+.cont-img img{
+    border-radius: 20px;
+}
+.cont-img{
+    position: relative;
+}
+.cont-img::after{
+    position: absolute;
+    content: '';
+    background-color: #d97e0f;
+    mix-blend-mode: multiply;
+    width: 15vh;
+    inset: 38% 5% 0.7% -10%;
+    border-radius: 20px;
+    height:  15vh;
+}
+
+/* Blog */
+
+.blog-art{
+    background-color: #dceaf5;
+    border-radius: 20px;
+}
+.blog-art img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.post-text{
+    padding: 20px;
+}
+.vision-img img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* .Post */
+.posts{
+    padding: 2rem;
+}
+/* .Contact Us */
+.cont-us img{
+    border-radius: 20px;
+    width: 100%;
+}
+.figma-img img{
+    border-radius: 50px;
+}
+.figma-text{
+    text-align: center;
+}
+.figma-li{
+    display: flex;
+    justify-content: flex-start;
+}
+.figma-article{
+    margin: 10rem;
+    padding: 6rem;
+
+}
+/* Call to Action */
+table, th, td{
+    border: 1px 
+}
+.table{
+    border-radius: 20px;
+    padding: 25px;
+}
+.table-art{
+    margin:20px ;
+    padding: 10px;
+}
+.table-text{
+    color: #5b5b5b;
+}
+#apply-text{
+    border-radius: 20px;
+    background-color: #ececec;
+}
+/* .Tesing */
+.salary{
+    padding: 0 0 0 3rem;
+}
+.Apply-now .apply-now{
+    justify-content: flex-start;
+}
+.apply-now{
+    background-color:#f2f2f2 ;
+    border-radius: 20px;
+    padding: 10px;
+}
+.apply-now-art{
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 85px;
+    justify-content: flex-start;
+}
+.subs-art{
+    background-color: #F58A07;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+/* .finsweet */
+.fins-photo img{
+    width: 100%;
+    border-radius: 20px;
+}
+/* .careers */
+.open-text{
+    background-color: #dceaf5;
+    border-radius: 20px;
+    padding: 25px;
+}
+.apply{
+    color: #F58A07;
+}
+.pos-article{
+    background-color: #F58A07;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+.hired-img img{
+    border-radius: 20px;
+}
+.hired-img{
+    position: relative;
+}
+.hired-img::after{
+    position: absolute;
+    content: '';
+    background-color: #F58A07;
+    mix-blend-mode: multiply;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    inset: 0 0 1% 0;
+    width: 15vh;
+}
